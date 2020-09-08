@@ -18,6 +18,9 @@ apps:
       - gnome-3-34
     common-id: com.gitlab.newsflash
     desktop: usr/local/share/applications/com.gitlab.newsflash
+    plugs:
+      - audio-playback
+      - network
 
 parts:
   newsflash:
