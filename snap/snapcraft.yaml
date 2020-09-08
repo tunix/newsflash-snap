@@ -23,7 +23,7 @@ parts:
   newsflash:
     plugin: meson
     source: https://gitlab.com/news-flash/news_flash_gtk.git
-    source-tag: "1.0.4"
+    source-tag: "1.0.5"
     parse-info: [usr/local/share/metainfo/com.gitlab.newsflash.appdata.xml]
     build-packages:
       - cargo
